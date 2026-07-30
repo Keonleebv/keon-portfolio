@@ -253,8 +253,8 @@ export default function Work() {
           <div className="proj-desc">
             Owned and built the measurement framework behind a stalled enterprise beta. 
             Turned a beta in an ambiguous state into clear answers on what was breaking, 
-            how users felt, and what to do next across 3 development teams. Did it by mapping 
-            the entire user journey into structured Mixpanel funnels instead of isolated events.
+            how users felt, and what to do next across 3 development teams. Mapped 
+            the entire user journey into structured Mixpanel funnels.
           </div>
           <div className="pills">
             <span className="pill">Mixpanel</span>
