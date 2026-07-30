@@ -251,16 +251,20 @@ export default function Work() {
             <div className="proj-tag">PM Intern &middot; Teams &amp; Orgs Beta</div>
           </div>
           <div className="proj-desc">
-            A beta that stalled with no visibility into why. Built the measurement
-            framework that surfaced it, then closed it.
+            Owned and built the measurement framework behind a stalled enterprise beta. 
+            Turned a beta in an ambiguous state into clear answers on what was breaking, 
+            how users felt, and what to do next across 3 development teams. Did it by mapping 
+            the entire user journey into structured Mixpanel funnels instead of isolated events.
           </div>
           <div className="pills">
             <span className="pill">Mixpanel</span>
             <span className="pill">FullStory</span>
             <span className="pill">Confluence</span>
+            <span className="pill">Jira</span>
+
           </div>
           <div className="cta-row">
-            <span className="metric-mini">40% of drop-offs surfaced</span>
+            <span className="metric-mini">40% drop-off surfaced & fixed, 7 funnels built</span>
             <span className="cta-link">Read case study &rarr;</span>
           </div>
         </Link>
@@ -290,10 +294,11 @@ export default function Work() {
             <div className="proj-tag">PM Intern &middot; EAX</div>
           </div>
           <div className="proj-desc">
-            Two workstreams, not one: Battlefield acquisition to a 32% sign-in rate, and a
-            separate webstore-wide checkout project that found a $2M fix.
+            Two workstreams: Battlefield Webstore acquisition to a 32% sign-in rate, and a
+            Product Discovery project to optimize the Webstore user journey, that found a $2M fix.
           </div>
           <div className="pills">
+            <span className="pill">Product Requirement Docs</span>
             <span className="pill">SQL</span>
             <span className="pill">Looker</span>
             <span className="pill">A/B Testing</span>
