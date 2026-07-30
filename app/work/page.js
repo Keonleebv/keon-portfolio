@@ -124,8 +124,8 @@ export default function Work() {
             <div className="exp-co">Electronic Arts</div>
             <div className="exp-role">PM Intern, EAX</div>
             <div className="exp-divider" />
-            <div className="exp-num">$2M</div>
-            <div className="exp-desc">in revenue captured via checkout fixes</div>
+            <div className="exp-num">10%</div>
+            <div className="exp-desc">increase in checkout revenue via checkout fixes</div>
           </div>
           <div className="exp-item">
             <div className="exp-co">Suncor Energy</div>
@@ -294,9 +294,9 @@ export default function Work() {
             <div className="proj-tag">PM Intern &middot; EAX</div>
           </div>
           <div className="proj-desc">
-            Two workstreams: Battlefield Webstore Top-of-Funnel user acquisition to a 32% sign-in rate, 
-            and a Product Discovery project to optimize the Webstore-wide user journey, that found a $2M fix
-            in the checkout process. 
+            Two workstreams: Battlefield Webstore Top-of-Funnel user acquisition that beat its
+            sign-in North Star by 7 percentage points, and a Product Discovery project to optimize
+            the Webstore-wide user journey, that found a 10% checkout revenue increase.
           </div>
           <div className="pills">
             <span className="pill">Product Requirement Docs</span>
@@ -305,7 +305,7 @@ export default function Work() {
             <span className="pill">A/B Testing</span>
           </div>
           <div className="cta-row">
-            <span className="metric-mini">32% acquisition, $2M checkout fix</span>
+            <span className="metric-mini">+7pts vs North Star, 10% checkout revenue</span>
             <span className="cta-link">Read case study &rarr;</span>
           </div>
         </Link>
