@@ -11,7 +11,7 @@ export async function generateMetadata({ params }) {
   const caseData = CASES[slug];
   if (!caseData) return {};
   return {
-    title: `${caseData.title} — Keon Lee`,
+    title: caseData.title,
     description: caseData.dek,
     openGraph: {
       title: caseData.title,

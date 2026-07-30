@@ -7,11 +7,16 @@ export const viewport = {
 
 export const metadata = {
   metadataBase: new URL("https://keonlee.ca"),
-  title: "Keon Lee — Product Manager",
+  // default is the tab title on pages that don't set their own; template adds
+  // the suffix to the ones that do, e.g. "Weekflow · Keon Lee's Portfolio"
+  title: {
+    default: "Keon Lee's Portfolio",
+    template: "%s · Keon Lee's Portfolio",
+  },
   description:
     "Chemical engineer turned product manager. Weekflow, Coddle, and real work from Hootsuite and EA.",
   openGraph: {
-    title: "Keon Lee — Product Manager",
+    title: "Keon Lee's Portfolio",
     description:
       "Chemical engineer turned product manager. Weekflow, Coddle, and real work from Hootsuite and EA.",
     url: "https://keonlee.ca",
@@ -20,7 +25,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Keon Lee — Product Manager",
+    title: "Keon Lee's Portfolio",
     description:
       "Chemical engineer turned product manager. Weekflow, Coddle, and real work from Hootsuite and EA.",
   },
