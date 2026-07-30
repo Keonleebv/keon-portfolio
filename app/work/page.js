@@ -213,7 +213,7 @@ export default function Work() {
             <span className="pill">Postgres</span>
           </div>
           <div className="cta-row">
-            <span className="metric-mini">Stage: pre-launch, 0 external users</span>
+            <span className="metric-mini">Stage: Closed Beta, 15 external users</span>
             <span className="cta-link">Read case study &rarr;</span>
           </div>
         </Link>
