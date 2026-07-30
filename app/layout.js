@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  metadataBase: new URL("https://keonlee.com"),
+  metadataBase: new URL("https://keonlee.ca"),
   title: "Keon Lee — Product Manager",
   description:
     "Chemical engineer turned product manager. Weekflow, Coddle, and real work from Hootsuite and EA.",
@@ -9,7 +9,7 @@ export const metadata = {
     title: "Keon Lee — Product Manager",
     description:
       "Chemical engineer turned product manager. Weekflow, Coddle, and real work from Hootsuite and EA.",
-    url: "https://keonlee.com",
+    url: "https://keonlee.ca",
     siteName: "Keon Lee",
     type: "website",
   },
