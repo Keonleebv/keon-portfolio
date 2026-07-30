@@ -243,7 +243,7 @@ export default function Work() {
                 <div className="af-bar" style={{ "--w": "52%", "--d": "0.3s" }} />
                 <div className="af-bar" style={{ "--w": "34%", "--d": "0.45s" }} />
               </div>
-              <div className="anim-caption mono">7 funnels &middot; 15+ events tracked</div>
+              <div className="anim-caption mono">7 funnels &middot; 15+ new events tracked</div>
             </div>
           </div>
           <div className="proj-head">
