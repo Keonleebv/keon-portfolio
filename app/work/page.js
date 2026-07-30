@@ -294,8 +294,9 @@ export default function Work() {
             <div className="proj-tag">PM Intern &middot; EAX</div>
           </div>
           <div className="proj-desc">
-            Two workstreams: Battlefield Webstore acquisition to a 32% sign-in rate, and a
-            Product Discovery project to optimize the Webstore user journey, that found a $2M fix.
+            Two workstreams: Battlefield Webstore Top-of-Funnel user acquisition to a 32% sign-in rate, 
+            and a Product Discovery project to optimize the Webstore-wide user journey, that found a $2M fix
+            in the checkout process. 
           </div>
           <div className="pills">
             <span className="pill">Product Requirement Docs</span>
