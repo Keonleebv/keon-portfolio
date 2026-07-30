@@ -12,7 +12,7 @@
     --shadow: 0 30px 60px -20px rgba(32,29,24,0.10), 0 0 0 1px rgba(222,218,205,0.6);
   }
   *{box-sizing:border-box;}
-  html,body{margin:0;padding:0;}
+  html,body{margin:0;padding:0;color-scheme:light;}
   body{
     background:var(--paper);
     color:var(--ink);

@@ -1,6 +1,10 @@
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next"
 
+export const viewport = {
+  colorScheme: "light",
+};
+
 export const metadata = {
   metadataBase: new URL("https://keonlee.ca"),
   title: "Keon Lee — Product Manager",
@@ -26,6 +30,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <meta name="color-scheme" content="light" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
