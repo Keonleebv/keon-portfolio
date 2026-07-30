@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { RESUME_URL, RESUME_FILENAME } from "@/lib/resume";
 
 function fitFramePreviews() {
   document.querySelectorAll(".frame-viewport").forEach((vp) => {
@@ -45,7 +46,7 @@ export default function Work() {
           <div className="topbar-sub mono">Product Manager &middot; Vancouver, BC</div>
         </div>
         <div className="topbar-actions">
-          <a className="cta-pill cta-pill-primary" href="/resume.pdf" download>
+          <a className="cta-pill cta-pill-primary" href={RESUME_URL} download={RESUME_FILENAME}>
             Resume &darr;
           </a>
           <a className="cta-pill" href="https://www.linkedin.com/in/keonnnl/" target="_blank" rel="noopener noreferrer">
