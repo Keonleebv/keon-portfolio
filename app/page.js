@@ -85,7 +85,7 @@ export default function Landing() {
               <div className="badge mono">Product Manager</div>
             </div>
             <div className="card-mid">
-              <div className="l1">Previous @ &#8209;Hootsuite &middot; EA &middot; Suncor &middot; Deloitte</div>
+              <div className="l1">Prev @ Hootsuite &middot; EA &middot; Suncor &middot; Deloitte</div>
               <div className="l2">Co&#8209;founder, Coddle &middot; B.A.Sc Chem Eng, UBC</div>
             </div>
             <div className="card-bottom">
