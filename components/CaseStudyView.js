@@ -70,6 +70,17 @@ export default function CaseStudyView({ caseData }) {
           <div className="cs-eyebrow mono">{caseData.kicker}</div>
           <h1 className="cs-title">{caseData.title}</h1>
           <p className="cs-dek">{caseData.dek}</p>
+          {caseData.liveUrl && (
+            <a
+              href={caseData.liveUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cta-pill cta-pill-primary"
+              style={{ display: "inline-block", marginBottom: 32 }}
+            >
+              Give it a try &rarr;
+            </a>
+          )}
           <div className="tldr">
             <div className="tldr-label mono">TL;DR</div>
             <ul>
