@@ -232,6 +232,20 @@
   }
   .exp-row{ display:grid; grid-template-columns:repeat(4,1fr); gap:24px 20px; }
   @media (max-width:760px){ .exp-row{ grid-template-columns:1fr 1fr; } }
+  .incoming-strip{
+    display:flex; align-items:baseline; flex-wrap:wrap; gap:8px 14px;
+    background:var(--paper-2); border:1px solid var(--brass-soft); border-left:3px solid var(--brass);
+    border-radius:0 6px 6px 0; padding:15px 20px; margin-bottom:26px;
+  }
+  .incoming-badge{
+    font-size:9.5px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase;
+    color:var(--brass); border:1px solid var(--brass-soft); background:var(--card);
+    padding:4px 10px; border-radius:12px; align-self:center;
+  }
+  .incoming-co{ font-family:'Fraunces',serif; font-size:19px; font-weight:700; color:var(--ink); line-height:1.2; }
+  .incoming-role{ font-size:11.5px; color:var(--ink-soft); line-height:1.4; }
+  .incoming-when{ font-size:11.5px; font-weight:500; color:var(--brass); margin-left:auto; white-space:nowrap; }
+  @media (max-width:760px){ .incoming-when{ margin-left:0; } }
   .exp-co{ font-family:'Fraunces',serif; font-size:19px; font-weight:700; color:var(--ink); line-height:1.2; min-height:23px; }
   .exp-role{ font-size:11.5px; color:var(--ink-soft); margin-top:4px; line-height:1.4; min-height:32px; }
   .exp-divider{ width:24px; height:2px; background:var(--brass-soft); margin:14px 0 14px; }

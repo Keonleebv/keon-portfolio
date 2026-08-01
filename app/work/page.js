@@ -79,12 +79,12 @@ export default function Work() {
           <svg className="intro-graphic" viewBox="0 0 170 95" role="img">
             <title>
               A rough sketch of the path: an early jump at Deloitte, a stagnant stretch at
-              Suncor, a hard year pivoting, then a breakout at EA and continued climb at
-              Hootsuite.
+              Suncor, a hard year pivoting, then a breakout at EA, a climb at Hootsuite,
+              and Tesla next.
             </title>
             <line x1="6" y1="85" x2="158" y2="85" stroke="var(--line)" strokeWidth="1" />
             <polyline
-              points="6,42 44,58 82,75 120,25 158,8"
+              points="6,42 36,58 66,75 96,26 126,13 156,5"
               fill="none"
               stroke="var(--brass)"
               strokeWidth="1.6"
@@ -94,17 +94,20 @@ export default function Work() {
             <circle cx="6" cy="42" r="2.5" fill="var(--brass-soft)">
               <title>Deloitte, an early jump</title>
             </circle>
-            <circle cx="44" cy="58" r="2.5" fill="var(--brass-soft)">
+            <circle cx="36" cy="58" r="2.5" fill="var(--brass-soft)">
               <title>Suncor, a stagnant stretch</title>
             </circle>
-            <circle cx="82" cy="75" r="2.5" fill="var(--brass-soft)">
+            <circle cx="66" cy="75" r="2.5" fill="var(--brass-soft)">
               <title>A hard year, pivoting into product</title>
             </circle>
-            <circle cx="120" cy="25" r="2.5" fill="var(--brass-soft)">
+            <circle cx="96" cy="26" r="2.5" fill="var(--brass-soft)">
               <title>EA, the breakout</title>
             </circle>
-            <circle cx="158" cy="8" r="3" fill="var(--brass)">
+            <circle cx="126" cy="13" r="2.5" fill="var(--brass-soft)">
               <title>Hootsuite, still climbing</title>
+            </circle>
+            <circle cx="156" cy="5" r="3" fill="var(--brass)">
+              <title>Tesla, next</title>
             </circle>
           </svg>
         </div>
@@ -112,6 +115,16 @@ export default function Work() {
 
       <div className="exp-strip">
         <div className="exp-strip-label mono">Experience</div>
+        {/* Tesla sits outside the metric grid on purpose: it hasn't started, so there's
+            no number to put next to it yet. */}
+        <div className="incoming-strip">
+          <span className="incoming-badge mono">Incoming</span>
+          <span className="incoming-co">Tesla</span>
+          <span className="incoming-role">
+            Product Engineer Intern &middot; vehicle ordering &amp; configuration &middot; Fremont, CA
+          </span>
+          <span className="incoming-when mono">Aug &ndash; Dec 2026</span>
+        </div>
         <div className="exp-row">
           <div className="exp-item">
             <div className="exp-co">Hootsuite</div>
