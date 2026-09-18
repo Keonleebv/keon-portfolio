@@ -124,10 +124,11 @@ export default function Work() {
             Product Engineer Intern &middot; IT Applications Engineering &middot; vehicle
             ordering experience &middot; Fremont, CA
           </span>
-          <span className="current-when mono">Aug 2026 &ndash; Present</span>
+          <span className="current-when mono">Aug &ndash; Dec 2026</span>
           <span className="current-focus">
-            Reducing order cancellations and reorders caused by email and account
-            mismatch, currently scoped to Express Checkout wallet IDs.
+            Reducing cancel-and-reorder rates on express checkout, where email and
+            account mismatches block returning customers and employees from applying
+            loyalty and internal benefits. Currently scoped to wallet IDs.
           </span>
         </div>
         <div className="exp-row">
