@@ -144,7 +144,7 @@
     padding:6px 12px; border-radius:20px; white-space:nowrap; margin-left:12px; margin-top:3px;
   }
   .card-mid{ font-size:17.5px; line-height:1.6; margin-bottom:auto; }
-  /* Same letterpress treatment as .card-name, so the incoming role reads as the
+  /* Same letterpress treatment as .card-name, so the current role reads as the
      headline of the block and the history below it sits back. */
   .card-mid .l1{
     color:var(--ink); font-weight:600; margin-bottom:11px;
@@ -239,20 +239,26 @@
   }
   .exp-row{ display:grid; grid-template-columns:repeat(4,1fr); gap:24px 20px; }
   @media (max-width:760px){ .exp-row{ grid-template-columns:1fr 1fr; } }
-  .incoming-strip{
+  .current-strip{
     display:flex; align-items:baseline; flex-wrap:wrap; gap:8px 14px;
     background:var(--paper-2); border:1px solid var(--brass-soft); border-left:3px solid var(--brass);
     border-radius:0 6px 6px 0; padding:15px 20px; margin-bottom:26px;
   }
-  .incoming-badge{
+  .current-badge{
     font-size:11.5px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase;
     color:var(--brass); border:1px solid var(--brass-soft); background:var(--card);
     padding:4px 10px; border-radius:12px; align-self:center;
   }
-  .incoming-co{ font-family:'Fraunces',serif; font-size:23px; font-weight:700; color:var(--ink); line-height:1.2; }
-  .incoming-role{ font-size:14px; color:var(--ink-soft); line-height:1.4; }
-  .incoming-when{ font-size:14px; font-weight:500; color:var(--brass); margin-left:auto; white-space:nowrap; }
-  @media (max-width:760px){ .incoming-when{ margin-left:0; } }
+  .current-co{ font-family:'Fraunces',serif; font-size:23px; font-weight:700; color:var(--ink); line-height:1.2; }
+  .current-role{ font-size:14px; color:var(--ink-soft); line-height:1.4; }
+  .current-when{ font-size:14px; font-weight:500; color:var(--brass); margin-left:auto; white-space:nowrap; }
+  @media (max-width:760px){ .current-when{ margin-left:0; } }
+  /* Own row under the role line: the project detail is a sentence, not a label,
+     so it gets full width rather than wrapping in beside the date. */
+  .current-focus{
+    flex-basis:100%; font-size:13.5px; color:var(--ink-soft);
+    line-height:1.5; padding-top:2px; border-top:1px solid var(--brass-soft);
+  }
   .exp-co{ font-family:'Fraunces',serif; font-size:23px; font-weight:700; color:var(--ink); line-height:1.2; min-height:28px; }
   .exp-role{ font-size:14px; color:var(--ink-soft); margin-top:4px; line-height:1.4; min-height:40px; }
   .exp-divider{ width:24px; height:2px; background:var(--brass-soft); margin:14px 0 14px; }

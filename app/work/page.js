@@ -80,7 +80,7 @@ export default function Work() {
             <title>
               A rough sketch of the path: an early jump at Deloitte, a stagnant stretch at
               Suncor, a hard year pivoting, then a breakout at EA, a climb at Hootsuite,
-              and Tesla next.
+              and Tesla now.
             </title>
             <line x1="6" y1="85" x2="158" y2="85" stroke="var(--line)" strokeWidth="1" />
             <polyline
@@ -107,7 +107,7 @@ export default function Work() {
               <title>Hootsuite, still climbing</title>
             </circle>
             <circle cx="156" cy="5" r="3" fill="var(--brass)">
-              <title>Tesla, next</title>
+              <title>Tesla, now</title>
             </circle>
           </svg>
         </div>
@@ -115,15 +115,20 @@ export default function Work() {
 
       <div className="exp-strip">
         <div className="exp-strip-label mono">Experience</div>
-        {/* Tesla sits outside the metric grid on purpose: it hasn't started, so there's
-            no number to put next to it yet. */}
-        <div className="incoming-strip">
-          <span className="incoming-badge mono">Incoming</span>
-          <span className="incoming-co">Tesla</span>
-          <span className="incoming-role">
-            Product Engineer Intern &middot; vehicle ordering &amp; configuration &middot; Fremont, CA
+        {/* Tesla sits outside the metric grid on purpose: the work is still in flight,
+            so there's no settled number to put next to it yet. */}
+        <div className="current-strip">
+          <span className="current-badge mono">Current</span>
+          <span className="current-co">Tesla</span>
+          <span className="current-role">
+            Product Engineer Intern &middot; IT Applications Engineering &middot; vehicle
+            ordering experience &middot; Fremont, CA
           </span>
-          <span className="incoming-when mono">Aug &ndash; Dec 2026</span>
+          <span className="current-when mono">Aug 2026 &ndash; Present</span>
+          <span className="current-focus">
+            Reducing order cancellations and reorders caused by email and account
+            mismatch, currently scoped to Express Checkout wallet IDs.
+          </span>
         </div>
         <div className="exp-row">
           <div className="exp-item">
